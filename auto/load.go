@@ -2,46 +2,53 @@ package auto
 
 import (
 	"context"
-	"fmt"
 	"log"
 	"time"
 
-	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/mongo"
 	"torukai.net/auth/api/database"
 )
 
-func Load() {
+var db *mongo.Client
+
+// func GetDBCollection(db *mongo.Client) (*mongo.Collection, error) {
+
+// 	// Check the connection
+// 	// err := db.Ping(context.Background(), nil)
+// 	// if err != nil {
+// 	// 	fmt.Println("here 2")
+// 	// 	return nil, err
+// 	// }
+// 	// collection := db.Database("myDB").Collection("users")
+// 	// fmt.Println("here")
+// 	// return collection, nil
+
+// 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+// 	defer cancel()
+// 	db, err := database.Connect(ctx)
+// 	if err != nil {
+// 		return nil, err
+// 	}
+// 	// Check the connection
+// 	err = client.Ping(context.TODO(), nil)
+// 	if err != nil {
+// 		return nil, err
+// 	}
+// 	collection := db.Database("myDB").Collection("users")
+// 	return collection, nil
+// }
+
+func Load() *mongo.Client {
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()
 
 	db, err := database.Connect(ctx)
+	//controllers.Init(db)
+
 	if err != nil {
 		log.Fatal(err)
 	}
-	defer db.Disconnect(ctx)
+	//defer db.Disconnect(ctx)
 
-	databases, err := db.ListDatabaseNames(ctx, bson.M{})
-	if err != nil {
-		log.Fatal(err)
-	}
-	fmt.Println(databases)
-	// defer db.Close()
-
-	// err = db.Debug().DropTableIfExists(&models.User{}).Error
-	// if err != nil {
-	// 	log.Fatal(err)
-	// }
-
-	// err = db.Debug().AutoMigrate(&models.User{}).Error
-	// if err != nil {
-	// 	log.Fatal(err)
-	// }
-
-	// for _, user := range users {
-	// 	err = db.Debug().Model(&models.User{}).Create(&user).Error
-	// 	if err != nil {
-	// 		log.Fatal(err)
-	// 	}
-	// 	console.Pretty(user)
-	// }
+	return db
 }
