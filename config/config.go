@@ -19,7 +19,7 @@ func Load() {
 	var err error
 	err = godotenv.Load()
 	if err != nil {
-		log.Fatal(err)
+		//log.Fatal(err)
 	}
 	PORT, err = strconv.Atoi(os.Getenv("PORT"))
 	if err != nil {
