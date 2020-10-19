@@ -27,30 +27,29 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/Torukai/Go-auth">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Go-auth</h3>
+  <h3 align="center">Go JWT authentication</h3>
 
   <p align="center">
     YOUR_SHORT_DESCRIPTION
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Torukai/Go-auth"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/Torukai/Go-auth">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/Torukai/Go-auth/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/Torukai/Go-auth/issues">Make a suggestion</a>
   </p>
 </p>
 
@@ -60,7 +59,8 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-  * [Built With](#built-with)
+  * [Used technologies](#used-technologies)
+  * [Structure](#structure)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
@@ -82,16 +82,17 @@ Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
 `github_username`, `repo_name`, `twitter_handle`, `email`
 
-## The goal of this project
+### The goal of this project
 
 Create an authentication service, which implements 4 API routes:
 
-### Built With
+### Used technologies
 
 * Database: [MongoDB Cloud]()
 * []()
 * []()
 
+### Structure
 
 
 <!-- GETTING STARTED -->
@@ -131,7 +132,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/Torukai/Go-auth/issues) for a list of proposed features (and known issues).
 
 - [x] Generate a pair of Access and Refresh tokens
 - [ ] Refreshes user Acess and Refresh tokens
