@@ -63,18 +63,8 @@
 * [About the Project](#about-the-project)
   * [Used technologies](#used-technologies)
   * [Structure](#structure)
-  <!--
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-  -->
 * [Usage](#usage)
 * [Roadmap](#roadmap)
-<!--
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
--->
 * [Acknowledgements](#acknowledgements)
 
 
