@@ -38,7 +38,8 @@
   </a>
 
   <h3 align="center">Go JWT authentication</h3>
-
+  
+  <!--
   <p align="center">
     YOUR_SHORT_DESCRIPTION
     <br />
@@ -51,6 +52,7 @@
     ·
     <a href="https://github.com/Torukai/Go-auth/issues">Make a suggestion</a>
   </p>
+  -->
 </p>
 
 
@@ -61,26 +63,27 @@
 * [About the Project](#about-the-project)
   * [Used technologies](#used-technologies)
   * [Structure](#structure)
+  <!--
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
+  -->
 * [Usage](#usage)
 * [Roadmap](#roadmap)
+<!--
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
+-->
 * [Acknowledgements](#acknowledgements)
 
 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
+<!--
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`
+-->
 
 ### The goal of this project
 
@@ -94,7 +97,9 @@ Create an authentication service, which implements 4 API routes:
 
 ### Structure
 
+//todo
 
+<!--
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -118,7 +123,7 @@ git clone https://github.com/github_username/repo_name.git
 ```sh
 npm install
 ```
-
+-->
 
 
 <!-- USAGE EXAMPLES -->
@@ -138,35 +143,6 @@ See the [open issues](https://github.com/Torukai/Go-auth/issues) for a list of p
 - [ ] Refreshes user Acess and Refresh tokens
 - [ ] Delete a specific Refresh token from the database
 - [ ] Delete all Refresh tokens for the specific user from the database
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
 
 
 <!-- ACKNOWLEDGEMENTS -->
